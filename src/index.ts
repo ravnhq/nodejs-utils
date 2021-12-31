@@ -1,6 +1,4 @@
 export * from "./types"
-export {
-  ExpressLogger,
-  NestJsLogger,
-  validateCredentials,
-} from "./googleCredentials"
+export { ExpressLogger } from "./expressLogger"
+export { NestJsLogger } from "./nestjsLogger"
+export { validateCredentials } from "./utils"

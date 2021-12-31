@@ -1,6 +1,6 @@
 {
-  "name": "parse-google-env-credentials",
-  "version": "1.0.7",
+  "name": "nodejs-utils",
+  "version": "1.0.0",
   "description": "Verify if the google credentials are correctly defined on your env and return the values of them to use in ExpressJs or NestJS",
   "main": "lib/index.js",
   "keywords": [
@@ -12,9 +12,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ederivero/google-credentials-package.git"
+    "url": "git+https://github.com/ravnhq/nodejs-utils.git"
   },
-  "homepage": "https://github.com/ederivero/google-credentials-package",
+  "homepage": "https://github.com/ravnhq/nodejs-utils",
   "types": "lib/index.d.ts",
   "author": "https://www.ravn.co/",
   "license": "MIT",
