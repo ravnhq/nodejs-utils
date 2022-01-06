@@ -31,7 +31,7 @@ export function NestJsLogger(
           level: "info",
           customSuccessMessage: (res: {
             req: { method: string; url: string }
-          }) => `request completed to ${res.req.method}: ${res.req.url}`,
+          }) => `${res.req.method} ${res.req.url}`,
         },
         stackdriver.createWriteStream({
           projectId: credentials.project_id,
